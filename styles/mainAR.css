@@ -162,6 +162,7 @@ form > input {
     text-decoration: underline;
 }
 #leftLinks {
+    text-align: left;
     position: relative;
     left: 20px;
     padding-top: 13px;
