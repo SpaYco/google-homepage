@@ -80,7 +80,7 @@ body {
     margin: 5px;
     bottom: -4px;
 }
-#searchBox:active, #searchBox:hover {
+#searchBox:active, #searchBox:hover, #searchBox:focus-within  {
     box-shadow: 0px 0px 4px #72727277; 
 }
 img#searchImg {
