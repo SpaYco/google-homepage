@@ -3,6 +3,7 @@
     <head>
         <title>Google</title>
         <link rel="icon" href="./favicon.ico" type="image/x-icon"/>
+        <link rel="stylesheet" href="./styles/FormReset.css" type="text/css">
         <link rel="stylesheet" href="./styles/main.css" type="text/css">
     </head>
     <body>
@@ -14,17 +15,20 @@
             <a href="#" class="SignIn nav">Sign In</a>
         </div>
         <div id="search">
-            <img src="./images/logo.png" alt="Google Logo">
+            <img id="logo" src="./images/logo.png" alt="Google Logo">
             <div id="searchBox">
-                <img src="./images/search.png" alt="search">
+                <img id="searchImg" src="./images/search.png" alt="search">
                 <form id="searchInput">
-                    <input type="text" name="searchText" value="Enter Your Magical Words Here">
+                    <input type="text" name="searchText" value="">
                 </form>
-                <a href="#"><img src="./images/mic.png" alt="mic"></a>
+                <a id="mic" href="#"><img src="./images/mic.png" alt="mic"></a>
             </div>
-            <button type="submit" form="searchInput">Google Search</button>
-            <button type="lucky" form="searchInput">i'm Feeling Lucky</button>
-            <p>Google offered in: <a href="./indexAR.html">العربية</a> <a href="./indexFR.html">Français</a></p>
+            <div id="searchBtns">
+                <button type="submit" form="searchInput">Google Search</button>
+                <button type="lucky" form="searchInput">I'm Feeling Lucky</button>
+            </div>
+            
+            <p id="otherLang">Google offered in: <a href="./indexAR.html">العربية</a> <a href="./indexFR.html">Français</a></p>
         </div>
     </body>
 </html>

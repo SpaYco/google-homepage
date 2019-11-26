@@ -50,3 +50,81 @@ body {
     background: #4380e8;
     box-shadow: inset 0px 0px 5px grey;
 }
+#search {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    top: 40%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -125px;
+}
+#searchBox {
+    display: grid;
+    grid-template-columns: 30px 400px 45px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 19px;
+    margin: 10px;
+    position: relative;
+    height: 45px;
+    padding:0;
+}
+#logo {
+    margin-left: 112.5px;
+}
+#searchBox > * {
+    margin: 5px;
+    bottom: -4px;
+}
+#searchBox:active, #searchBox:hover {
+    box-shadow: 0px 0px 4px #72727277; 
+}
+img#searchImg {
+    height: 24px;
+    width: 20px;
+    margin: 10px;
+    margin-top: 12px;
+    opacity: 0.5;
+}
+#mic {
+    margin: 10px;
+    margin-top: 9px;
+}
+#mic > img{
+    height: 24px;
+    width: 24px;
+}
+form > input {
+    width: 400px;
+    height: 35px;
+    border-style: none;
+    font: 16px arial,sans-serif;
+}
+#searchBtns {
+    margin-left: 105px;
+    margin-top: 20px;
+}
+#searchBtns > * {
+    padding: 10px 20px;
+    background-color: rgba(128, 128, 128, 0.1);
+    border: 1px solid rgba(128, 128, 128, 0.1);
+    border-radius: 5px;
+    color: rgba(128, 128, 128, 1);
+    font-size: 14px;
+}
+#searchBtns > *:hover {
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    box-shadow: 0px 0px 4px #72727277;
+}
+#otherLang {
+    margin-left: 140px;
+    margin-top: 20px;
+    font-size: 13px;
+}
+#otherLang > a {
+    padding : 0 7px;
+    text-decoration: none;
+}
+#otherLang > a:hover {
+    text-decoration: underline;
+}
