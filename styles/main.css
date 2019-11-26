@@ -1,8 +1,11 @@
+html, body {
+    height: 100%;
+}
 body {
     font-family: arial,sans-serif;
     font-size: 13px;
     color: #000000de;
-    
+    margin: 0;
 }
 #navbar {
     position: absolute;
@@ -52,18 +55,19 @@ body {
 }
 #search {
     position: absolute;
-    height: 500px;
+    height: auto;
     width: 500px;
     top: 40%;
     left: 50%;
     margin-left: -250px;
     margin-top: -125px;
+    z-index: 2;
 }
 #searchBox {
     display: grid;
     grid-template-columns: 30px 400px 45px;
     border: 1px solid rgba(128, 128, 128, 0.5);
-    border-radius: 19px;
+    border-radius: 25px;
     margin: 10px;
     position: relative;
     height: 45px;
@@ -127,4 +131,45 @@ form > input {
 }
 #otherLang > a:hover {
     text-decoration: underline;
+}
+#footer {
+    position: absolute; 
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    z-index: 1;
+}
+#footer > * {
+    border: 1px solid #e4e4e4;
+}
+#country > p{
+    color: rgba(0,0,0,.54);
+    margin-left: 25px;
+}
+#footerLinks {
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 13px;
+}
+#footerLinks > * > a {
+    text-decoration: none;
+    color: rgba(0,0,0,.65);
+    padding-left: 7px;
+    padding-right: 7px;
+}
+#footerLinks > * > a:hover {
+    text-decoration: underline;
+}
+#leftLinks {
+    position: relative;
+    left: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+#rightLinks {
+    text-align: right;
+    position: relative;
+    right: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;   
 }
