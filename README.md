@@ -28,9 +28,6 @@ This Is A Clone For The Google Home Page.
 - Twitter: [@iSpaYco](https://twitter.com/iSpaYco)
 - Linkedin: [Aziz Mejri](https://www.linkedin.com/in/spayco/)
 
-## Credits 
-- Core Design By [Cindy Shin in Behance](https://www.behance.net/adagio07) (see [here](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015))
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
