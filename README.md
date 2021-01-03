@@ -2,7 +2,7 @@
 
 > Google Homepage.
 
-![screenshot](./demo.png)
+![screenshot](./screenshot.png)
 
 This Is A Clone For The Google Home Page.
 
